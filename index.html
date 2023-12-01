@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    
+      <div class="navbar">
+        <div class="logo">
+          <img src="./images/logoTransparent.png" alt="Logo" />
+        </div>
+        
+        <div class="theme-toggler" role="group" aria-labelledby="themeToggleLabel">
+          <span style="background: linear-gradient(rgb(93, 216, 179), rgb(0, 107, 128));"></span>
+          <span style="background:linear-gradient(blueviolet, deeppink)"></span>
+          <span style="background:linear-gradient(#999, #111)"></span>
+      </div>
+      </div>
+  
+    <div class="body">
+      <div class="lightbox"  role="dialog" aria-modal="true">
+        <div class="wrapper">
+          <header>
+            <div class="photographer">
+              <i class="uil uil-camera"></i>
+              <span></span>
+            </div>
+            <div class="buttons">
+              <i class="uil uil-import"></i>
+              <i class="close-icon uil uil-times"></i>
+            </div>
+          </header>
+          <div class="preview-img">
+            <div class="img"><img src="" alt="preview-img"></div>
+          </div>
+        </div>
+      </div>
+      <section class="search">
+        <div class="content">
+          <div class="options"><h1>Image Gallery with JavaScript</h1>
+            <p>Search and download any images within a second</p>
+        </div>
+  
+          <div class="search-box">
+            <i class="uil uil-search"></i>
+            <input type="text" placeholder="Search">
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <ul class="images"></ul>
+        <button class="load-more">Load More</button>
+      </section>
+  
+    </div>
+  </div>
+</body>
+</html>
